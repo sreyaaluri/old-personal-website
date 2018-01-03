@@ -29,7 +29,7 @@
 #dysnthat, #doctalk { height: 360px; }
 
 #dysnthat { background-image: url("../img/thumbnails/dysnthat.png"); }
-#dysnthat:before { background-image: linear-gradient(185deg, rgba(11, 38, 64, 0.1) 20%, #0c232a 100%); }
+#dysnthat:before { background-image: linear-gradient(185deg, rgba(56, 39, 6, 0.1) 20%, rgba(35, 24, 3, 0.8) 100%); }
 
 #doctalk { background-image: url("../img/thumbnails/doctalk.png"); }
 #doctalk:before { background-image: linear-gradient(-185deg, rgba(88, 144, 255, 0.05) 0%, #141e33 100%); }
@@ -42,9 +42,9 @@
 #nn h3 { color: #f29530; /* Modified nn Orange */ }
 
 #dance { background-image: url("../img/thumbnails/dance.jpg"); }
-#dance:before { background-image: linear-gradient(185deg, rgba(11, 38, 64, 0.1) 20%, #0c232a 100%); }
+#dance:before { background-image: linear-gradient(185deg, rgba(56, 39, 6, 0.3) 20%, rgba(35, 24, 3, 1.0) 100%); }
 
 #books { background-image: url("../img/thumbnails/books.jpg"); }
-#books:before { background-image: linear-gradient(185deg, rgba(11, 38, 64, 0.1) 20%, #0c232a 100%); }
+#books:before { background-image: linear-gradient(185deg, rgba(56, 39, 6, 0.1) 20%, rgba(35, 24, 3, 0.8) 100%); }
 
 @media (min-width: 768px) { #dance { height: 420px; } }
