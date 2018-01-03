@@ -1,0 +1,50 @@
+/* Variables */
+#intro { height: 70vh; display: flex; align-items: center; }
+#intro h1, #intro .desc { margin: 0; font-size: 2rem; }
+#intro h1 { margin-bottom: 4px; }
+#intro .small-caps-strong { font-size: 1.5rem; font-weight: 500; text-transform: uppercase; }
+#intro .learn-more { border: 0; color: #666; }
+#intro .learn-more:hover { color: #333; border-bottom: 1px solid currentColor; }
+@media (max-width: 768px) { #intro { display: block; height: auto; margin-top: 18px; } }
+
+#pp { width: 150px; margin-bottom: 20px; }
+
+#work { margin-top: -30px; }
+#work h3 { margin: 0; }
+#work h3 + p { margin: 0; margin-top: 8px; font-size: 1.6rem; font-weight: 400; line-height: 2rem; }
+@media (max-width: 768px) { #work { margin-top: 60px; } }
+
+.thumb { display: block; position: relative; min-height: 200px; margin-bottom: 20px; color: white !important; border: 0; border-radius: 5px; background-repeat: no-repeat; background-size: cover; transition: all 0.1s ease-in-out; }
+.thumb:before { content: " "; position: absolute; top: 0; bottom: 0; left: 0; right: 0; opacity: 0.95; border-radius: 5px; transition: all 0.1s ease-in-out; }
+.thumb .content { position: absolute; bottom: 24px; left: 16px; right: 16px; }
+.thumb:hover, .thumb:focus, .thumb:active { cursor: pointer; color: white; border: 0; transform: scale(1.01); }
+.thumb:hover:before, .thumb:focus:before, .thumb:active:before { opacity: 1.0; }
+
+.notcomplete { display: block; position: relative; min-height: 200px; margin-bottom: 20px; color: white !important; border: 0; border-radius: 5px; background-repeat: no-repeat; background-size: cover; transition: all 0.1s ease-in-out; }
+.notcomplete:before { content: " "; position: absolute; top: 0; bottom: 0; left: 0; right: 0; opacity: 0.95; border-radius: 5px; transition: all 0.1s ease-in-out; }
+.notcomplete .content { position: absolute; bottom: 24px; left: 16px; right: 16px; }
+.notcomplete:hover, .notcomplete:focus, .notcomplete:active { cursor: default; color: white; border: 0; }
+.thumb:hover:before, .thumb:focus:before, .thumb:active:before { opacity: 1.0; }
+
+#dysnthat, #doctalk { height: 360px; }
+
+#dysnthat { background-image: url("../img/thumbnails/dysnthat.png"); }
+#dysnthat:before { background-image: linear-gradient(185deg, rgba(11, 38, 64, 0.5) 20%, #0c232a 100%); }
+
+#doctalk { background-image: url("../img/thumbnails/doctalk.png"); }
+#doctalk:before { background-image: linear-gradient(-185deg, rgba(88, 144, 255, 0.05) 0%, #141e33 100%); }
+
+#interactclub { background-image: url("../img/thumbnails/interactclub.jpg"); background-position: 40%; }
+#interactclub:before { background-image: linear-gradient(-185deg, rgba(240, 93, 125, 0.05) 0%, #f05d7d 150%); }
+
+#nn { color: #333 !important; border: 0; background-image: url("../img/thumbnails/nn.png"); }
+#nn:before { border: 1px solid #ddd; border-radius: 5px; background-image: linear-gradient(-185deg, rgba(255, 255, 255, 0.8) 0%, #f6f6f6 100%); }
+#nn h3 { color: #f29530; /* Modified nn Orange */ }
+
+#dance { background-image: url("../img/thumbnails/dance.jpg"); }
+#dance:before { background-image: linear-gradient(-185deg, rgba(64, 145, 67, 0.15) 0%, #409143 150%); }
+
+#books { background-image: url("../img/thumbnails/books.jpg"); }
+#books:before { background-image: linear-gradient(185deg, rgba(11, 38, 64, 0.5) 20%, #0c232a 100%); }
+
+@media (min-width: 768px) { #dance { height: 420px; } }
