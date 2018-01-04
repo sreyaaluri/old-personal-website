@@ -1,0 +1,18 @@
+/* Variables */
+.container { max-width: 980px; }
+.content { max-width: 720px; margin: auto; }
+header { margin-bottom: 72px; }
+section { padding: 80px 0; }
+.alt-section { background-color: #F8F8F9; }
+blockquote { margin: 0; font-size: 2.4rem; font-weight: 500; line-height: 3.4rem; color: #333; }
+h1 { margin: 0; margin-bottom: 12px; font-size: 2.8rem; line-height: 3.2rem; text-align: center; color: #333; }
+.byline { margin-top: 0; font-size: 2rem; text-align: center; color: #999; }
+.intro-text { text-align: center; margin-bottom: 64px; }
+#intro { padding-top: 0; }
+#danceheading { color: #3d7a67; }
+#dysnthatheading { color: #3d7a67; }
+#doctalkheading { color: #3d7a67; }
+#nnheading { color: #3d7a67; }
+#interactclubheading { color: #3d7a67; }
+#booksheading { color: #3d7a67; }
+strong { color: #3b8eb9; }
