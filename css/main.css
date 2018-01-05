@@ -48,7 +48,7 @@ sup { top: -0.5em; }
 
 sub { bottom: -0.25em; }
 
-img { border: 0; }
+img { border: 0; object-fit: contain; }
 
 svg:not(:root) { overflow: hidden; }
 
