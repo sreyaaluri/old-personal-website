@@ -38,8 +38,7 @@
 #interactclub:before { background-image: linear-gradient(185deg, rgba(11, 38, 64, 0.05) 20%, #0c232a 100%); }
 
 #painting { color: #333 !important; border: 0; background-image: url("../img/thumbnails/painting.jpg"); }
-#painting:before { border: 1px solid #ddd; border-radius: 5px; background-image: linear-gradient(-185deg, rgba(255, 255, 255, 0.8) 0%, #f6f6f6 100%); }
-#painting h3 { color: #f29530; /* Modified painting Orange */ }
+#painting:before { background-image: linear-gradient(185deg, rgba(56, 39, 6, 0.3) 20%, rgba(35, 24, 3, 1.0) 100%); }
 
 #dance { background-image: url("../img/thumbnails/dance.jpg"); }
 #dance:before { background-image: linear-gradient(185deg, rgba(56, 39, 6, 0.3) 20%, rgba(35, 24, 3, 1.0) 100%); }
