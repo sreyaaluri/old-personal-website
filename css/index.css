@@ -38,7 +38,7 @@
 #interactclub:before { background-image: linear-gradient(185deg, rgba(11, 38, 64, 0.05) 20%, #0c232a 100%); }
 
 #painting { background-image: url("../img/thumbnails/painting.jpg"); }
-#painting:before { background-image: linear-gradient(185deg, rgba(56, 39, 6, 0.3) 20%, rgba(35, 24, 3, 1.0) 100%); }
+#painting:before { background-image: linear-gradient(185deg, rgba(56, 39, 6, 0.1) 20%, rgba(35, 24, 3, 0.8) 100%); }
 
 #dance { background-image: url("../img/thumbnails/dance.jpg"); }
 #dance:before { background-image: linear-gradient(185deg, rgba(56, 39, 6, 0.3) 20%, rgba(35, 24, 3, 1.0) 100%); }
